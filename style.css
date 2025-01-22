@@ -445,6 +445,8 @@ margin-bottom: 0px;
   grid-gap:20px;
   
 }
+
+
 .kahini-card-1{
     grid-area: myArea;
   
@@ -565,7 +567,7 @@ footer{
     .top-heading{
         position: fixed;
         top: 0;
-        width: 93.5%;
+        width: 84.5%;
         background-color: #ffffff;
         opacity: 0.95;
         backdrop-filter: blur(2px);
@@ -584,7 +586,7 @@ footer{
 }
 
 .description-title{
-    font-size: 2.8rem;
+    font-size: 1.8rem;
 }
 .description-message{
     width: 25rem;
@@ -594,13 +596,15 @@ footer{
     
 }
 .banner-pic{
-  width: 100%;
+  width: 70%;
   max-width: 50rem;
   height: auto;
-  margin-left: 0px;
+ 
   margin: 0 auto;
-  margin-right: 6px;
+  margin-right: 50%;
+  margin-left: 50%;
   margin-top: 80px;
+  text-align: center;
 }
 .introduction{
     flex-direction: column-reverse;
@@ -632,17 +636,29 @@ footer{
   
 }
 
+.kahini-all{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:none;
+    grid-gap:20px;
+}
+
 /* .kahini-all{
     display: grid;
-    grid-template-columns: repeat(1fr,1fr);
-} */
-.kahini-all{
+    grid-template-areas: 'myArea myArea . .  ' 'myArea myArea . . ';
+    grid-gap:20px;
+    
+  } */
+/* .kahini-all{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     gap:20px;
     flex-wrap: wrap;
 }
+.kc{
+    flex:60%;
+} */
 
 .kahini-2, .kahini-3, .kahini-4, .kahini-5{
   
@@ -681,13 +697,32 @@ footer{
         line-height: 1.2;
        }
        .our-stories{
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
+        margin-left: 0%;
+        margin-right: 0px;
     }
 .standard-title{
     font-size: 8vw;
+    text-align: center;
+    padding-left: 5%;
+    
 }
 
-
+.all-story{
+    width:100%;
+}
+.button-view{
+    
+    margin-left: 8rem ;
+   padding-left: 0px;
+    
+    
+}
+.btn-view{
+    font-size: 3vw;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 
 }
