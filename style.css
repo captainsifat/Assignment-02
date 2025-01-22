@@ -1,3 +1,10 @@
+/* *{
+    border: 1px solid red;
+    }
+    body{
+    border: 2px dashed green;
+    } */
+
 *{
     font-family: "Quicksand", serif;
 }
@@ -6,6 +13,12 @@
     font-optical-sizing: auto;
    
   }
+  .raleway{
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+ 
+  }
+
 .text-1{
    font-size:  2rem;
    font-weight: 700;
@@ -155,22 +168,11 @@ font-weight: 500;
     /* background: linear-gradient(0deg, rgba(254, 161, 1, 0.205) 0%, rgba(255,255,255,1) 100%);
 */
 } 
-.our-stories{
-    max-width: 1440px;
-    margin: 0 auto;
-}
-.all-story{
-   
-    background-image: url(images/bg.png),
-    /* background-repeat: repeat-x;
-    background: */linear-gradient(0deg, rgba(254, 161, 1, 0.24) 0%, rgba(255, 255, 255, 0.582) 100%); 
-    padding-bottom: 60px ;
-   
-    /* background-color: rgba(255,255,255,0.9);
-    background-blend-mode: lighten; */
-    
-}
 
+
+
+
+/* Standard Section */
 .standard{
     
         max-width: 1440px;
@@ -250,12 +252,31 @@ a:link{
 }
 
 /* stories */
+/* our stories section  */
+.our-stories{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.all-story{
+   
+    background-image: url(images/bg.png),
+    /* background-repeat: repeat-x;
+    background: */linear-gradient(0deg, rgba(254, 161, 1, 0.24) 0%, rgba(255, 255, 255, 0.582) 100%); 
+    padding-bottom: 60px ;
+   
+    /* background-color: rgba(255,255,255,0.9);
+    background-blend-mode: lighten; */
+    
+}
+
 .stories{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
 }
-
+.image-card-1{
+    background-image: url(images/story-1.png);
+}
 .story-cards{
     display: flex;
     flex-direction: column;
@@ -295,11 +316,150 @@ a:link{
 .btn-view {
 padding: 10px 60px;
 }
+.image-card-1{
+    background-image: url(images/story-1.png);
+    border: #8700FF solid 50px;
+}
+
+
+
+
+
+/* KAHINI SECTION */
+
+.kahini-1{
+    background-image: url(images/story-1.png);
+    border-radius: 16px 16px 0px 0px;
+    width: 100%;
+    height: 338px;
+}
+
+.kahini-2{
+    background-image: url(images/story-2.png);
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0px 0px;
+    width: 100%;
+    height: 178px;
+    background-size: 100% 100%;
+}
+
+.kahini-3{
+    background-image: url(images/story-3.png);
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0px 0px;
+    width: 100%;
+    height: 178px;
+    background-size: 100% 100%;
+}
+
+.kahini-4{
+    background-image: url(images/story-4.png);
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0px 0px;
+    width: 100%;
+    height: 178px;
+    background-size: 100% 100%;
+}
+
+.kahini-5{
+    background-image: url(images/story-5.png);
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0px 0px;
+    width: 100%;
+    height: 178px;
+    background-size: 100% 100%;
+}
+
+.kahini-bottom-1{
+background-color: #ffffff;
+width: 100%;
+height:320px;
+border-radius:0px 0px 16px 16px;
+margin-bottom: 0px;
+
+}
+.kahini-bottom-2{
+    background-color: #ffffff;
+    width: 100%;
+    height:130px;
+    border-radius:0px 0px 16px 16px;
+    background-size: 100% 100%;
+    margin-bottom: 0px;
+    }
+
+.kahini-heading{
+ margin-bottom: 0px;
+ margin-top: 0px;
+
+}
+
+.kahini-heading-2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size:  .96rem;
+    font-weight: 700;
+    padding-top: 24px;
+    padding-right: 28px;
+    line-height: 1.8;
+   }
+
+
+.kahini-para{
+    width: 433px;
+    height: 75px;
+    padding-left: 38px;
+    margin-top: 0px;
+    font-size: .95rem;
+    font-weight: 500;
+    color: #666666;
+    line-height: 1.8;
+}
+
+.btn-kahini{
+    color: #ffffff;
+    font-size: .95rem;
+    font-weight: 500;
+    background-color: #3CD8E8;
+    border-radius: 48px;
+    border: none;
+    padding: 15px 19px;
+    margin-top: -25px;
+    margin-left: 38px;
+
+}
+.btn-kahini-green{
+     background-color: #95B226;
+   
+}
+.btn-kahini-blue{
+    background-color: #5D58F0;
+  
+}
+
+/* .kahini-para{
+    margin: 48px 68px 35px 38px;
+} */
+.kahini-all{
+  display: grid;
+  grid-template-areas: 'myArea myArea . .  ' 'myArea myArea . . ';
+  grid-gap:20px;
+  
+}
+.kahini-card-1{
+    grid-area: myArea;
+  
+}
+/* .kahini-card-1, .kahini-card-2, .kahini-card-3, .kahini-card-4, .kahini-card-5{
+    width: 100%;
+} */
+
+
 
 /* footer section */
 footer{
     background-color:#01ACFD;
     color: #ffffff;
+    padding: 123px 228px 174px 140px;
 }
 .footer-section{
     display: flex;
@@ -321,6 +481,8 @@ footer{
     align-items: top;
     gap:10px;
     margin-left: 0px;
+    margin-bottom: 27px;
+
 }
 .footer-title{
     margin-top: 0px;
@@ -328,21 +490,28 @@ footer{
 }
 .footer-info{
     margin-top: 19px;
-    width:400px
+    width:400px;
+    line-height: 2.5rem;
 }
 .foot-link{
     color: #ffffff;
     font-weight: 400;
     font-size: 1.25rem;
+    
 }
 .foot-links li{
-    line-height: 2.3rem;
+    line-height: 3.6rem;
 }
 
 .footer-2-title, .footer-3-title{
     margin-top: 0px;
     padding-top: 0px;
 
+}
+.footer-3-logo{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 
