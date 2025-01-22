@@ -45,6 +45,10 @@
     font-size:  .96rem;
     font-weight: 700;
 }
+.text-10{
+    font-size:  2.63rem;
+    font-weight: 700;
+}
 
 /* ----- navbar ----- */
 .logo{
@@ -290,18 +294,42 @@ footer{
     justify-content: space-between;
     max-width: 1440px;
     margin: 0 auto;
+    padding-top: 60px;
    
     
 }
 .footer-logo{
-    width: 70px;
-    height:81px;
+    width: 85px;
+    height:104px;
+    margin-right: 0px;
 }
 
+.footer-logo-with-text{
+    display: flex;
+    align-items: top;
+    gap:10px;
+    margin-left: 0px;
+}
+.footer-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.footer-info{
+    margin-top: 19px;
+}
+.foot-link{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.foot-links li{
+    line-height: 2.3rem;
+}
 
-
-
-
+.footer-2-title, .footer-3-title{
+    margin-top: 0px;
+    padding-top: 0px;
+}
 
 
 
